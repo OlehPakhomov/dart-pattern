@@ -1,6 +1,6 @@
 <mxfile>
     <diagram id="xjR2cc70RTAuetC5VNIb" name="Страница 1">
-        <mxGraphModel dx="878" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="878" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -31,7 +31,7 @@
                         <mxPoint x="396" y="350" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="4TmruyjHZk0cEE7LhUGH-14" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;align=left;verticalAlign=bottom;entryX=0.006;entryY=-0.154;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                <mxCell id="4TmruyjHZk0cEE7LhUGH-14" value="" style="endArrow=none;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;align=left;verticalAlign=bottom;entryX=0.006;entryY=-0.154;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" parent="1" edge="1">
                     <mxGeometry x="-0.4273" y="66" relative="1" as="geometry">
                         <mxPoint x="349" y="284" as="sourcePoint"/>
                         <mxPoint x="461.0799999999999" y="283.996" as="targetPoint"/>

@@ -11,7 +11,7 @@ abstract class AirShip {
 
 //Реализация ракеты
 class Rocket implements AirShip {
-  final int _maxHeight = 20000;
+  static const int _maxHeight = 20000;
   double _temperature;
   int _speed;
   int _height;
