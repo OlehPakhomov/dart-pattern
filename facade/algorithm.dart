@@ -6,7 +6,7 @@ class Algorithm {
     int innerRot;
     Alphabet alphabet = Alphabet();
     StringConverter strConverter = StringConverter();
-    List<String> resultString = List();
+    List<String> resultString = [];
     List<String> currentString = strConverter.splitString(string);
     for (int i = 0; i < currentString.length; i++) {
       if (currentString[i] == ' ') {

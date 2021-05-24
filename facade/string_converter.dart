@@ -1,7 +1,7 @@
 class StringConverter {
   List<String> splitString(String string) {
-    List<String> result =
-        string.runes.map((rune) => new String.fromCharCode(rune)).toList();
+    List<String> result;
+    result = string.split('');
     return result;
   }
 

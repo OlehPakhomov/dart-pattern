@@ -7,9 +7,9 @@ void main() {
 
   print("mes: $message");
 
-  String code = facadeTest.code(message, 2, "US");
+  String code = facadeTest.code(message, 5, "US");
   print("cod: $code");
 
-  String decodeMessage = facadeTest.decode(code, 2, "US");
+  String decodeMessage = facadeTest.decode(code, 5, "US");
   print("dec: $decodeMessage");
 }
