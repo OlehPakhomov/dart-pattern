@@ -4,7 +4,7 @@ abstract class StringFormat {
 
   StringFormat(this._sourceString);
 
-  sourceStringOutput() {
+  void sourceStringOutput() {
     print("Source string: $_sourceString");
   }
 
@@ -12,9 +12,9 @@ abstract class StringFormat {
     return _sourceString.length;
   }
 
-  formattedString();
+  void formattedString();
 
-  formattedStringOutput();
+  void formattedStringOutput();
 }
 
 class StringToUpperWordFormat extends StringFormat {
@@ -22,12 +22,12 @@ class StringToUpperWordFormat extends StringFormat {
 
   StringToUpperWordFormat(String sourceString) : super(sourceString);
 
-  formattedString() {
+  void formattedString() {
     _formattedString = _sourceString.toUpperCase();
     _subString = _formattedString.split(" ");
   }
 
-  formattedStringOutput() {
+  void formattedStringOutput() {
     print("Formatted string: ");
     _subString.forEach((element) {
       print(element);
@@ -38,12 +38,12 @@ class StringToUpperWordFormat extends StringFormat {
 class StringToLowerFormat extends StringFormat {
   StringToLowerFormat(String sourceString) : super(sourceString);
 
-  formattedString() {
+  void formattedString() {
     _formattedString = _sourceString.toLowerCase();
     _formattedString = _formattedString.replaceAll(" ", ".");
   }
 
-  formattedStringOutput() {
+  void formattedStringOutput() {
     print("Formatted string: $_formattedString");
   }
 }
