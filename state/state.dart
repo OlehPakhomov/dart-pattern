@@ -10,7 +10,6 @@ class State {
     print("Current balance after income: ${_account.balance}");
   }
 
-  @override
   void debid(double summ) {
     _account.balance -= summ;
     print("Current balance after debit: ${_account.balance}");
